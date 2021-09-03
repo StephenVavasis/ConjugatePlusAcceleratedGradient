@@ -1,0 +1,52 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+              R2020a Update 1 (9.8.0.1359463) 64-bit (glnxa64)
+                               April 9, 2020
+
+ 
+For online documentation, see https://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ABPDN 1
+Alg 1=CPLUSAG/NO_Z
+Alg 2=CPLUSAG/Z
+Alg 3=AG
+Alg 4=CGDESCENT
+ABPDN 2
+Alg 1=CPLUSAG/NO_Z
+Alg 2=CPLUSAG/Z
+Alg 3=AG
+Alg 4=CGDESCENT
+ABPDN 3
+Alg 1=CPLUSAG/NO_Z
+Alg 2=CPLUSAG/Z
+Alg 3=AG
+Alg 4=CGDESCENT
+ABPDN 4
+Alg 1=CPLUSAG/NO_Z
+Alg 2=CPLUSAG/Z
+Alg 3=AG
+Alg 4=CGDESCENT
+Logistic 1
+Alg 1=CPLUSAG/NO_Z
+Alg 2=CPLUSAG/Z
+Alg 3=AG
+Alg 4=CGDESCENT
+Logistic 2
+Alg 1=CPLUSAG/NO_Z
+Alg 2=CPLUSAG/Z
+Alg 3=AG
+Alg 4=CGDESCENT
+Huber 1
+Alg 1=CPLUSAG/NO_Z
+Alg 2=CPLUSAG/Z
+Alg 3=AG
+Alg 4=CGDESCENT
+Huber 2
+Alg 1=CPLUSAG/NO_Z
+Alg 2=CPLUSAG/Z
+Alg 3=AG
+Alg 4=CGDESCENT
+>> 

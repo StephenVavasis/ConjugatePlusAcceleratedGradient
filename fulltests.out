@@ -1,0 +1,160 @@
+----------
+begin at 01-Sep-2021 15:44:43
+code = do_one_problem_all_algs  whichtest = b m = 256 n = 65536 gtol = 1.000000e-08
+L = 1.100000e+00  ell = 6.669704e-18
+  params = 1.000000e-03 1.000000e-04 
+++++++Alg = CPLUSAG/NO_Z  numit = 28150 maxit = 500000 err/gtol = 0.975498 
+  number of AG steps = 21
+   fcount = 0 fgcount = 56287 gcount = 1
+   time is now 01-Sep-2021 15:54:21
+++++++Alg = CPLUSAG/Z  numit = 31450 maxit = 500000 err/gtol = 0.997325 
+  number of AG steps = 3927
+   fcount = 0 fgcount = 86527 gcount = 1
+   time is now 01-Sep-2021 16:08:02
+++++++Alg = AG  numit = 518018 maxit = 1000000 err/gtol = 1.000216 
+   fcount = 1 fgcount = 518019 gcount = 1
+   time is now 01-Sep-2021 17:22:12
+++++++Alg = CGDESCENT   CG_DESCENT reports: numit = 29214  numf = 49964  numg = 48046
+  numit = 29214 maxit = 500000 err/gtol = 0.498297 
+   fcount = 18839 fgcount = 48047 gcount = 16922
+   time is now 01-Sep-2021 17:27:43
+----------
+begin at 01-Sep-2021 17:27:43
+code = do_one_problem_all_algs  whichtest = b m = 256 n = 65536 gtol = 1.000000e-08
+L = 1.447214e+00  ell = 4.038835e-19
+  params = 1.000000e-03 5.000000e-06 
+++++++Alg = CPLUSAG/NO_Z  numit = 62050 maxit = 500000 err/gtol = 0.995276 
+  number of AG steps = 42
+   fcount = 0 fgcount = 124066 gcount = 1
+   time is now 01-Sep-2021 17:44:14
+++++++Alg = CPLUSAG/Z  numit = 66364 maxit = 500000 err/gtol = 0.977980 
+  number of AG steps = 10415
+   fcount = 0 fgcount = 178318 gcount = 1
+   time is now 01-Sep-2021 18:07:14
+++++++Alg = AG  numit = 660354 maxit = 1000000 err/gtol = 1.000056 
+   fcount = 1 fgcount = 660355 gcount = 1
+   time is now 01-Sep-2021 19:32:26
+++++++Alg = CGDESCENT   CG_DESCENT reports: numit = 60441  numf = 100596  numg = 94204
+  numit = 60441 maxit = 500000 err/gtol = 0.625770 
+   fcount = 35211 fgcount = 94205 gcount = 28820
+   time is now 01-Sep-2021 19:42:40
+----------
+begin at 01-Sep-2021 19:42:40
+code = do_one_problem_all_algs  whichtest = b m = 512 n = 262144 gtol = 1.000000e-08
+L = 1.100000e+00  ell = 2.484750e-19
+  params = 1.000000e-03 1.000000e-04 
+++++++Alg = CPLUSAG/NO_Z  numit = 40047 maxit = 500000 err/gtol = 0.999643 
+  number of AG steps = 18
+   fcount = 0 fgcount = 80084 gcount = 1
+   time is now 01-Sep-2021 20:27:12
+++++++Alg = CPLUSAG/Z  numit = 42647 maxit = 500000 err/gtol = 0.997146 
+  number of AG steps = 2485
+   fcount = 0 fgcount = 122994 gcount = 1
+   time is now 01-Sep-2021 21:20:49
+++++++Alg = AG  numit = 901417 maxit = 1000000 err/gtol = 1.000005 
+   fcount = 1 fgcount = 901418 gcount = 1
+   time is now 02-Sep-2021 06:08:50
+++++++Alg = CGDESCENT   CG_DESCENT reports: numit = 44918  numf = 74649  numg = 76172
+  numit = 44918 maxit = 500000 err/gtol = 0.450307 
+   fcount = 26627 fgcount = 76173 gcount = 28151
+   time is now 02-Sep-2021 06:39:51
+----------
+begin at 02-Sep-2021 06:39:51
+code = do_one_problem_all_algs  whichtest = b m = 512 n = 262144 gtol = 1.000000e-08
+L = 1.447214e+00  ell = 1.706482e-20
+  params = 1.000000e-03 5.000000e-06 
+++++++Alg = CPLUSAG/NO_Z  numit = 242331 maxit = 500000 err/gtol = 0.993574 
+  number of AG steps = 31
+   fcount = 0 fgcount = 484639 gcount = 1
+   time is now 02-Sep-2021 10:09:03
+++++++Alg = CPLUSAG/Z  numit = 249232 maxit = 500000 err/gtol = 0.997855 
+  number of AG steps = 14458
+   fcount = 0 fgcount = 718833 gcount = 1
+   time is now 02-Sep-2021 15:39:14
+++++++Alg = AG  numit = 1000000 maxit = 1000000 err/gtol = 1.468222 
+   fcount = 1 fgcount = 1000001 gcount = 1
+   time is now 03-Sep-2021 01:24:45
+++++++Alg = CGDESCENT   CG_DESCENT reports: numit = 235488  numf = 316334  numg = 435129
+  numit = 235488 maxit = 500000 err/gtol = 0.467739 
+   fcount = 70145 fgcount = 435130 gcount = 188941
+   time is now 03-Sep-2021 04:20:55
+----------
+begin at 03-Sep-2021 04:20:57
+code = do_one_problem_all_algs  whichtest = L m = 0 n = 6000 gtol = 1.000000e-08
+L = 7.451149e+03  ell = 1.000000e-04
+  params = 1.000000e-04 1.000000e+00 4.000000e-01 
+++++++Alg = CPLUSAG/NO_Z  numit = 57 maxit = 500000 err/gtol = 0.908981 
+  number of AG steps = 0
+   fcount = 0 fgcount = 118 gcount = 1
+   time is now 03-Sep-2021 04:21:01
+++++++Alg = CPLUSAG/Z  numit = 57 maxit = 500000 err/gtol = 0.908981 
+  number of AG steps = 0
+   fcount = 0 fgcount = 118 gcount = 1
+   time is now 03-Sep-2021 04:21:04
+++++++Alg = AG  numit = 106506 maxit = 1000000 err/gtol = 1.000005 
+   fcount = 1 fgcount = 106507 gcount = 1
+   time is now 03-Sep-2021 05:12:43
+++++++Alg = CGDESCENT   CG_DESCENT reports: numit = 64  numf = 128  numg = 66
+  numit = 64 maxit = 500000 err/gtol = 0.550149 
+   fcount = 63 fgcount = 67 gcount = 2
+   time is now 03-Sep-2021 05:12:45
+----------
+begin at 03-Sep-2021 05:12:47
+code = do_one_problem_all_algs  whichtest = L m = 0 n = 6000 gtol = 1.000000e-08
+L = 7.451149e+03  ell = 5.000000e-06
+  params = 5.000000e-06 1.000000e+00 4.000000e-01 
+++++++Alg = CPLUSAG/NO_Z  numit = 53 maxit = 500000 err/gtol = 0.811143 
+  number of AG steps = 0
+   fcount = 0 fgcount = 110 gcount = 1
+   time is now 03-Sep-2021 05:12:51
+++++++Alg = CPLUSAG/Z  numit = 53 maxit = 500000 err/gtol = 0.811143 
+  number of AG steps = 0
+   fcount = 0 fgcount = 110 gcount = 1
+   time is now 03-Sep-2021 05:12:54
+++++++Alg = AG  numit = 362235 maxit = 1000000 err/gtol = 1.000004 
+   fcount = 1 fgcount = 362236 gcount = 1
+   time is now 03-Sep-2021 08:09:28
+++++++Alg = CGDESCENT   CG_DESCENT reports: numit = 61  numf = 125  numg = 65
+  numit = 61 maxit = 500000 err/gtol = 0.537518 
+   fcount = 62 fgcount = 66 gcount = 3
+   time is now 03-Sep-2021 08:09:30
+----------
+begin at 03-Sep-2021 08:09:30
+code = do_one_problem_all_algs  whichtest = u m = 10001 n = 10000 gtol = 1.000000e-08
+L = 8.000000e+00  ell = 0.000000e+00
+  params = 2.500000e+02 
+++++++Alg = CPLUSAG/NO_Z  numit = 2904 maxit = 500000 err/gtol = 0.916604 
+  number of AG steps = 1241
+   fcount = 0 fgcount = 4580 gcount = 1
+   time is now 03-Sep-2021 08:09:32
+++++++Alg = CPLUSAG/Z  numit = 3166 maxit = 500000 err/gtol = 0.925569 
+  number of AG steps = 1283
+   fcount = 0 fgcount = 5553 gcount = 1
+   time is now 03-Sep-2021 08:09:35
+++++++Alg = AG  numit = 7218 maxit = 1000000 err/gtol = 6127.266777 
+   fcount = 1 fgcount = 7219 gcount = 1
+   time is now 03-Sep-2021 08:09:38
+++++++Alg = CGDESCENT   CG_DESCENT reports: numit = 15534  numf = 21862  numg = 26425
+  numit = 15534 maxit = 500000 err/gtol = 0.159085 
+   fcount = 5529 fgcount = 26426 gcount = 10093
+   time is now 03-Sep-2021 08:09:47
+----------
+begin at 03-Sep-2021 08:09:47
+code = do_one_problem_all_algs  whichtest = u m = 10001 n = 10000 gtol = 1.000000e-08
+L = 8.000000e+00  ell = 0.000000e+00
+  params = 1.000000e+03 
+++++++Alg = CPLUSAG/NO_Z  numit = 31959 maxit = 500000 err/gtol = 0.991295 
+  number of AG steps = 6918
+   fcount = 0 fgcount = 57018 gcount = 1
+   time is now 03-Sep-2021 08:10:15
+++++++Alg = CPLUSAG/Z  numit = 14729 maxit = 500000 err/gtol = 0.961448 
+  number of AG steps = 8019
+   fcount = 0 fgcount = 26155 gcount = 1
+   time is now 03-Sep-2021 08:10:27
+++++++Alg = AG  numit = 51898 maxit = 1000000 err/gtol = 6.914717 
+   fcount = 1 fgcount = 51899 gcount = 1
+   time is now 03-Sep-2021 08:10:50
+++++++Alg = CGDESCENT   CG_DESCENT reports: numit = 182998  numf = 243614  numg = 328456
+  numit = 182998 maxit = 500000 err/gtol = 0.397623 
+   fcount = 50174 fgcount = 328457 gcount = 135017
+   time is now 03-Sep-2021 08:12:36
