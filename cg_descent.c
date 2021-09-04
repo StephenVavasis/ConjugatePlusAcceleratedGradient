@@ -2,6 +2,11 @@
 
 NOTE: if stats structure changes, need to update GetStat
 
+This file was taken from the MATLAB subdirectory of Hager & Zhang's distribution of 
+CG-Descent version 6.8 and modified by S. Vavasis (2021/06) to free up intermediate
+results as soon as they are not needed, thus prevent certain out-of-memory
+errors that occurred with the unmodified version.  
+
 */
 
 #include <stdio.h>
