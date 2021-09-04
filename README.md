@@ -8,7 +8,7 @@ convex functions, available on arxiv.org, 2021.
 
 A version of accelerated gradient is available in `ag`.  In addition, there are three smooth convex test cases available.  Function `makeorthol1test` computes
 the ABPDN (approximate basis-pursuit denoising).  Function `makehandles_logistic` computes logistic regression, and `make_huber_regression`
-computes Huber regerssion.  All three test problems are described in the paper.
+computes Huber regression.  All three test problems are described in the paper.
 
 Hager & Zhang's CG-Descent is available here: http://users.clas.ufl.edu/hager/papers/Software/  We have used version 6.8.  Note that version 6.8 sometimes crashes
 in Matlab because it runs out of memory.  This repository contains a modified version of the Matlab front-end, called `cg_descent.c`, that is more aggressive
