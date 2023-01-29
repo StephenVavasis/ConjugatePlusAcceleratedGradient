@@ -1,0 +1,315 @@
+----------
+begin at 29-Jan-2023 16:12:32
+code = do_one_problem_all_algs  whichtest = q n = 1000 gtol = 1.000000e-08
+
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=   1513 num_ag=0    
+   totalfgcount=    3065 (    3065) norm(grad f(x^*))=6.45e-09 sol_info=none
+   time is now 29-Jan-2023 16:12:35
+C+AG(HaveL=false,u=true,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=   1513 num_ag=0    
+   totalfgcount=    3065 (    3065) norm(grad f(x^*))=6.45e-09 sol_info=none
+   norm(x-firstx) = 0.000000e+00
+   time is now 29-Jan-2023 16:12:35
+C+AG(HaveL=true,u=false,s=0.800000,c=8,BP=D), L=1.000000e+06, ell=1.000000e+00, success=true  numit=   1513 num_ag=0    
+   totalfgcount=    3024 (    3024) norm(grad f(x^*))=9.76e-09 sol_info=none
+   norm(x-firstx) = 5.464983e-14
+   time is now 29-Jan-2023 16:12:35
+C+AG(HaveL=true,u=true,s=0.800000,c=8,BP=D), L=1.000000e+06, ell=1.000000e+00, success=true  numit=   1513 num_ag=0    
+   totalfgcount=    3024 (    3024) norm(grad f(x^*))=9.76e-09 sol_info=none
+   norm(x-firstx) = 5.464983e-14
+   time is now 29-Jan-2023 16:12:36
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=+), L=NaN, ell=NaN, success=true  numit=   1513 num_ag=0    
+   totalfgcount=    3065 (    3065) norm(grad f(x^*))=6.45e-09 sol_info=none
+   norm(x-firstx) = 0.000000e+00
+   time is now 29-Jan-2023 16:12:36
+AG(HaveL=true)                , L=1.000000e+06, ell=1.000000e+00, success=true  numit=  22677             
+   totalfgcount=   22678 (   22678) norm(grad f(x^*))=1.00e-08 sol_info=none
+   norm(x-firstx) = 1.000768e-08
+   time is now 29-Jan-2023 16:12:36
+AG(HaveL=false)               , L=NaN, ell=NaN, success=false numit=    Inf             
+   totalfgcount=  100002 (  100002) norm(grad f(x^*))=3.18e-03 sol_info=none
+   norm(x-firstx) = 3.109548e-03
+   time is now 29-Jan-2023 16:12:38
+CGDescent                     , L=NaN, ell=NaN, success=true  numit=   1515             
+   totalfgcount=    3036 (    3036) norm(grad f(x^*))=1.85e-09 sol_info=none
+   norm(x-firstx) = 2.639522e-14
+   time is now 29-Jan-2023 16:12:39
+----------
+begin at 29-Jan-2023 16:12:40
+code = do_one_problem_all_algs  whichtest = b(lambda=1.000000e-03,delta=1.000000e-04) n = 64 gtol = 1.000000e-08
+
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=    800 num_ag=16   
+   totalfgcount=    1641 (    1641) norm(grad f(x^*))=9.81e-09 sol_info=numappxzero=45
+   time is now 29-Jan-2023 16:12:40
+C+AG(HaveL=false,u=true,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=   1279 num_ag=48   
+   totalfgcount=    8383 (    8383) norm(grad f(x^*))=9.34e-09 sol_info=numappxzero=45
+   norm(x-firstx) = 4.250136e-04
+   time is now 29-Jan-2023 16:12:41
+C+AG(HaveL=true,u=false,s=0.800000,c=8,BP=D), L=1.100000e+00, ell=3.864584e-11, success=true  numit=    662 num_ag=8    
+   totalfgcount=    1338 (    1338) norm(grad f(x^*))=9.16e-09 sol_info=numappxzero=45
+   norm(x-firstx) = 6.211908e-04
+   time is now 29-Jan-2023 16:12:41
+C+AG(HaveL=true,u=true,s=0.800000,c=8,BP=D), L=1.100000e+00, ell=3.864584e-11, success=true  numit=    709 num_ag=16   
+   totalfgcount=    2992 (    2992) norm(grad f(x^*))=8.22e-09 sol_info=numappxzero=45
+   norm(x-firstx) = 4.792530e-04
+   time is now 29-Jan-2023 16:12:42
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=+), L=NaN, ell=NaN, success=true  numit=    672 num_ag=16   
+   totalfgcount=    1436 (    1436) norm(grad f(x^*))=9.00e-09 sol_info=numappxzero=45
+   norm(x-firstx) = 6.745060e-04
+   time is now 29-Jan-2023 16:12:42
+AG(HaveL=true)                , L=1.100000e+00, ell=3.864584e-11, success=true  numit=  16980             
+   totalfgcount=   16981 (   16981) norm(grad f(x^*))=1.03e-08 sol_info=numappxzero=45
+   norm(x-firstx) = 3.229083e-04
+   time is now 29-Jan-2023 16:12:43
+AG(HaveL=false)               , L=NaN, ell=NaN, success=true  numit=  16186             
+   totalfgcount=   32377 (   32377) norm(grad f(x^*))=1.03e-08 sol_info=numappxzero=45
+   norm(x-firstx) = 2.395673e-04
+   time is now 29-Jan-2023 16:12:45
+CGDescent                     , L=NaN, ell=NaN, success=true  numit=    508             
+   totalfgcount=    1048 (    1048) norm(grad f(x^*))=8.86e-09 sol_info=numappxzero=45
+   norm(x-firstx) = 1.454413e-03
+   time is now 29-Jan-2023 16:12:45
+----------
+begin at 29-Jan-2023 16:12:46
+code = do_one_problem_all_algs  whichtest = b(lambda=1.000000e-03,delta=5.000000e-06) n = 64 gtol = 1.000000e-08
+
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=    993 num_ag=16   
+   totalfgcount=    2021 (    2021) norm(grad f(x^*))=7.59e-09 sol_info=numappxzero=44
+   time is now 29-Jan-2023 16:12:47
+C+AG(HaveL=false,u=true,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=   1498 num_ag=248  
+   totalfgcount=    7205 (    7205) norm(grad f(x^*))=9.97e-09 sol_info=numappxzero=44
+   norm(x-firstx) = 3.328868e-05
+   time is now 29-Jan-2023 16:12:47
+C+AG(HaveL=true,u=false,s=0.800000,c=8,BP=D), L=1.447214e+00, ell=1.950722e-12, success=true  numit=    885 num_ag=8    
+   totalfgcount=    1767 (    1767) norm(grad f(x^*))=6.30e-09 sol_info=numappxzero=44
+   norm(x-firstx) = 5.748833e-06
+   time is now 29-Jan-2023 16:12:47
+C+AG(HaveL=true,u=true,s=0.800000,c=8,BP=D), L=1.447214e+00, ell=1.950722e-12, success=true  numit=   2017 num_ag=328  
+   totalfgcount=    9818 (    9818) norm(grad f(x^*))=9.05e-09 sol_info=numappxzero=44
+   norm(x-firstx) = 1.609161e-05
+   time is now 29-Jan-2023 16:12:48
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=+), L=NaN, ell=NaN, success=true  numit=   1329 num_ag=40   
+   totalfgcount=    2769 (    2769) norm(grad f(x^*))=8.32e-09 sol_info=numappxzero=44
+   norm(x-firstx) = 1.350992e-06
+   time is now 29-Jan-2023 16:12:48
+AG(HaveL=true)                , L=1.447214e+00, ell=1.950722e-12, success=true  numit=  14817             
+   totalfgcount=   14818 (   14818) norm(grad f(x^*))=1.01e-08 sol_info=numappxzero=44
+   norm(x-firstx) = 7.874736e-05
+   time is now 29-Jan-2023 16:12:49
+AG(HaveL=false)               , L=NaN, ell=NaN, success=true  numit=  14587             
+   totalfgcount=   29180 (   29180) norm(grad f(x^*))=1.06e-08 sol_info=numappxzero=44
+   norm(x-firstx) = 9.256117e-05
+   time is now 29-Jan-2023 16:12:51
+CGDescent                     , L=NaN, ell=NaN, success=true  numit=    931             
+   totalfgcount=    1894 (    1894) norm(grad f(x^*))=9.66e-09 sol_info=numappxzero=44
+   norm(x-firstx) = 4.382663e-05
+   time is now 29-Jan-2023 16:12:51
+----------
+begin at 29-Jan-2023 16:12:52
+code = do_one_problem_all_algs  whichtest = b(lambda=1.000000e-03,delta=1.000000e-04) n = 256 gtol = 1.000000e-08
+
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=   1259 num_ag=8    
+   totalfgcount=    2533 (    2533) norm(grad f(x^*))=9.62e-09 sol_info=numappxzero=185
+   time is now 29-Jan-2023 16:12:53
+C+AG(HaveL=false,u=true,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=   1920 num_ag=24   
+   totalfgcount=    8047 (    8047) norm(grad f(x^*))=9.92e-09 sol_info=numappxzero=185
+   norm(x-firstx) = 7.772286e-05
+   time is now 29-Jan-2023 16:12:54
+C+AG(HaveL=true,u=false,s=0.800000,c=8,BP=D), L=1.100000e+00, ell=1.665132e-12, success=true  numit=   1521 num_ag=16   
+   totalfgcount=    3054 (    3054) norm(grad f(x^*))=9.44e-09 sol_info=numappxzero=185
+   norm(x-firstx) = 9.722029e-05
+   time is now 29-Jan-2023 16:12:54
+C+AG(HaveL=true,u=true,s=0.800000,c=8,BP=D), L=1.100000e+00, ell=1.665132e-12, success=true  numit=   1679 num_ag=16   
+   totalfgcount=    6872 (    6872) norm(grad f(x^*))=9.61e-09 sol_info=numappxzero=185
+   norm(x-firstx) = 2.063940e-05
+   time is now 29-Jan-2023 16:12:56
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=+), L=NaN, ell=NaN, success=true  numit=   1425 num_ag=16   
+   totalfgcount=    2927 (    2927) norm(grad f(x^*))=9.50e-09 sol_info=numappxzero=185
+   norm(x-firstx) = 6.292338e-05
+   time is now 29-Jan-2023 16:12:56
+AG(HaveL=true)                , L=1.100000e+00, ell=1.665132e-12, success=true  numit=  50941             
+   totalfgcount=   50942 (   50942) norm(grad f(x^*))=1.00e-08 sol_info=numappxzero=185
+   norm(x-firstx) = 1.046351e-03
+   time is now 29-Jan-2023 16:13:04
+AG(HaveL=false)               , L=NaN, ell=NaN, success=true  numit=  48559             
+   totalfgcount=   97125 (   97125) norm(grad f(x^*))=1.00e-08 sol_info=numappxzero=185
+   norm(x-firstx) = 1.218408e-03
+   time is now 29-Jan-2023 16:13:19
+CGDescent                     , L=NaN, ell=NaN, success=true  numit=   1278             
+   totalfgcount=    2719 (    2719) norm(grad f(x^*))=8.74e-09 sol_info=numappxzero=185
+   norm(x-firstx) = 3.151423e-04
+   time is now 29-Jan-2023 16:13:20
+----------
+begin at 29-Jan-2023 16:13:20
+code = do_one_problem_all_algs  whichtest = b(lambda=1.000000e-03,delta=5.000000e-06) n = 256 gtol = 1.000000e-08
+
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=   2784 num_ag=120  
+   totalfgcount=    5684 (    5684) norm(grad f(x^*))=9.40e-09 sol_info=numappxzero=183
+   time is now 29-Jan-2023 16:13:21
+C+AG(HaveL=false,u=true,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=   5787 num_ag=1704 
+   totalfgcount=   27582 (   27582) norm(grad f(x^*))=8.96e-09 sol_info=numappxzero=183
+   norm(x-firstx) = 7.581709e-05
+   time is now 29-Jan-2023 16:13:26
+C+AG(HaveL=true,u=false,s=0.800000,c=8,BP=D), L=1.447214e+00, ell=8.453191e-14, success=true  numit=   3139 num_ag=16   
+   totalfgcount=    6278 (    6278) norm(grad f(x^*))=8.98e-09 sol_info=numappxzero=183
+   norm(x-firstx) = 5.024340e-05
+   time is now 29-Jan-2023 16:13:27
+C+AG(HaveL=true,u=true,s=0.800000,c=8,BP=D), L=1.447214e+00, ell=8.453191e-14, success=true  numit=   5614 num_ag=1696 
+   totalfgcount=   25078 (   25078) norm(grad f(x^*))=9.78e-09 sol_info=numappxzero=183
+   norm(x-firstx) = 5.517000e-05
+   time is now 29-Jan-2023 16:13:31
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=+), L=NaN, ell=NaN, success=true  numit=   2525 num_ag=80   
+   totalfgcount=    5200 (    5200) norm(grad f(x^*))=8.86e-09 sol_info=numappxzero=183
+   norm(x-firstx) = 1.946016e-05
+   time is now 29-Jan-2023 16:13:32
+AG(HaveL=true)                , L=1.447214e+00, ell=8.453191e-14, success=true  numit=  31946             
+   totalfgcount=   31947 (   31947) norm(grad f(x^*))=1.03e-08 sol_info=numappxzero=183
+   norm(x-firstx) = 7.525601e-05
+   time is now 29-Jan-2023 16:13:37
+AG(HaveL=false)               , L=NaN, ell=NaN, success=true  numit=  31544             
+   totalfgcount=   63096 (   63096) norm(grad f(x^*))=1.01e-08 sol_info=numappxzero=183
+   norm(x-firstx) = 6.914798e-05
+   time is now 29-Jan-2023 16:13:46
+CGDescent                     , L=NaN, ell=NaN, success=true  numit=   3029             
+   totalfgcount=    6434 (    6434) norm(grad f(x^*))=8.29e-09 sol_info=numappxzero=183
+   norm(x-firstx) = 8.574875e-05
+   time is now 29-Jan-2023 16:13:47
+----------
+begin at 29-Jan-2023 16:13:48
+code = do_one_problem_all_algs  whichtest = L(lambda=1.000000e-04,meandist=1.000000e+00,sigma=4.000000e-01) n = 100 gtol = 1.000000e-08
+
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=     48 num_ag=0    
+   totalfgcount=     111 (     111) norm(grad f(x^*))=9.63e-09 sol_info=none
+   time is now 29-Jan-2023 16:13:48
+C+AG(HaveL=false,u=true,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=     48 num_ag=0    
+   totalfgcount=     111 (     111) norm(grad f(x^*))=9.63e-09 sol_info=none
+   norm(x-firstx) = 0.000000e+00
+   time is now 29-Jan-2023 16:13:48
+C+AG(HaveL=true,u=false,s=0.800000,c=8,BP=D), L=2.411437e+02, ell=1.000000e-04, success=true  numit=     50 num_ag=0    
+   totalfgcount=      99 (      99) norm(grad f(x^*))=7.43e-09 sol_info=none
+   norm(x-firstx) = 7.244416e-06
+   time is now 29-Jan-2023 16:13:49
+C+AG(HaveL=true,u=true,s=0.800000,c=8,BP=D), L=2.411437e+02, ell=1.000000e-04, success=true  numit=     50 num_ag=0    
+   totalfgcount=      99 (      99) norm(grad f(x^*))=7.43e-09 sol_info=none
+   norm(x-firstx) = 7.244416e-06
+   time is now 29-Jan-2023 16:13:49
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=+), L=NaN, ell=NaN, success=true  numit=     53 num_ag=0    
+   totalfgcount=     159 (     159) norm(grad f(x^*))=7.58e-09 sol_info=none
+   norm(x-firstx) = 1.581563e-05
+   time is now 29-Jan-2023 16:13:49
+AG(HaveL=true)                , L=2.411437e+02, ell=1.000000e-04, success=true  numit=  19119             
+   totalfgcount=   19120 (   19120) norm(grad f(x^*))=1.00e-08 sol_info=none
+   norm(x-firstx) = 7.880625e-05
+   time is now 29-Jan-2023 16:13:51
+AG(HaveL=false)               , L=NaN, ell=NaN, success=false numit=    Inf             
+   totalfgcount=  100002 (  100002) norm(grad f(x^*))=4.25e-07 sol_info=none
+   norm(x-firstx) = 2.107319e-03
+   time is now 29-Jan-2023 16:14:02
+CGDescent                     , L=NaN, ell=NaN, success=true  numit=     50             
+   totalfgcount=     101 (     101) norm(grad f(x^*))=8.56e-09 sol_info=none
+   norm(x-firstx) = 1.581896e-05
+   time is now 29-Jan-2023 16:14:02
+----------
+begin at 29-Jan-2023 16:14:03
+code = do_one_problem_all_algs  whichtest = L(lambda=5.000000e-06,meandist=1.000000e+00,sigma=4.000000e-01) n = 100 gtol = 1.000000e-08
+
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=     48 num_ag=0    
+   totalfgcount=     111 (     111) norm(grad f(x^*))=6.90e-09 sol_info=none
+   time is now 29-Jan-2023 16:14:03
+C+AG(HaveL=false,u=true,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=     48 num_ag=0    
+   totalfgcount=     111 (     111) norm(grad f(x^*))=6.90e-09 sol_info=none
+   norm(x-firstx) = 0.000000e+00
+   time is now 29-Jan-2023 16:14:03
+C+AG(HaveL=true,u=false,s=0.800000,c=8,BP=D), L=2.411436e+02, ell=5.000000e-06, success=true  numit=     46 num_ag=0    
+   totalfgcount=      91 (      91) norm(grad f(x^*))=9.86e-09 sol_info=none
+   norm(x-firstx) = 1.709802e-04
+   time is now 29-Jan-2023 16:14:03
+C+AG(HaveL=true,u=true,s=0.800000,c=8,BP=D), L=2.411436e+02, ell=5.000000e-06, success=true  numit=     46 num_ag=0    
+   totalfgcount=      91 (      91) norm(grad f(x^*))=9.86e-09 sol_info=none
+   norm(x-firstx) = 1.709802e-04
+   time is now 29-Jan-2023 16:14:03
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=+), L=NaN, ell=NaN, success=true  numit=     53 num_ag=0    
+   totalfgcount=     171 (     171) norm(grad f(x^*))=8.95e-09 sol_info=none
+   norm(x-firstx) = 3.002943e-04
+   time is now 29-Jan-2023 16:14:04
+AG(HaveL=true)                , L=2.411436e+02, ell=5.000000e-06, success=true  numit=  66127             
+   totalfgcount=   66128 (   66128) norm(grad f(x^*))=1.00e-08 sol_info=none
+   norm(x-firstx) = 1.630285e-03
+   time is now 29-Jan-2023 16:14:12
+AG(HaveL=false)               , L=NaN, ell=NaN, success=false numit=    Inf             
+   totalfgcount=  100002 (  100002) norm(grad f(x^*))=5.06e-07 sol_info=none
+   norm(x-firstx) = 3.110841e-02
+   time is now 29-Jan-2023 16:14:22
+CGDescent                     , L=NaN, ell=NaN, success=true  numit=     45             
+   totalfgcount=      91 (      91) norm(grad f(x^*))=1.01e-08 sol_info=none
+   norm(x-firstx) = 3.377418e-04
+   time is now 29-Jan-2023 16:14:22
+----------
+begin at 29-Jan-2023 16:14:23
+code = do_one_problem_all_algs  whichtest = u(tau=2.500000e+02) n = 1000 gtol = 1.000000e-06
+
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=   5644 num_ag=3520 
+   totalfgcount=   14377 (   14377) norm(grad f(x^*))=7.13e-07 sol_info=none
+   time is now 29-Jan-2023 16:14:24
+C+AG(HaveL=false,u=true,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=   9883 num_ag=5944 
+   totalfgcount=   42674 (   42674) norm(grad f(x^*))=9.55e-07 sol_info=none
+   norm(x-firstx) = 9.330989e-06
+   time is now 29-Jan-2023 16:14:26
+C+AG(HaveL=true,u=false,s=0.800000,c=8,BP=D), L=8.000000e+00, ell=0.000000e+00, success=true  numit=   5843 num_ag=3576 
+   totalfgcount=   10791 (   10791) norm(grad f(x^*))=5.14e-07 sol_info=none
+   norm(x-firstx) = 2.297449e-06
+   time is now 29-Jan-2023 16:14:27
+C+AG(HaveL=true,u=true,s=0.800000,c=8,BP=D), L=8.000000e+00, ell=0.000000e+00, success=true  numit=   6886 num_ag=4104 
+   totalfgcount=   23420 (   23420) norm(grad f(x^*))=9.99e-07 sol_info=none
+   norm(x-firstx) = 5.087339e-06
+   time is now 29-Jan-2023 16:14:28
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=+), L=NaN, ell=NaN, success=true  numit=   5705 num_ag=3848 
+   totalfgcount=   14738 (   14738) norm(grad f(x^*))=6.74e-07 sol_info=none
+   norm(x-firstx) = 1.080973e-06
+   time is now 29-Jan-2023 16:14:29
+AG(HaveL=true)                , L=8.000000e+00, ell=0.000000e+00, success=false numit=    Inf             
+   totalfgcount=  100001 (  100001) norm(grad f(x^*))=1.98e-01 sol_info=none
+   norm(x-firstx) = 9.434347e+03
+   time is now 29-Jan-2023 16:14:34
+AG(HaveL=false)               , L=NaN, ell=NaN, success=false numit=    Inf             
+   totalfgcount=  100002 (  100002) norm(grad f(x^*))=5.45e-01 sol_info=none
+   norm(x-firstx) = 2.482419e+04
+   time is now 29-Jan-2023 16:14:37
+CGDescent                     , L=NaN, ell=NaN, success=true  numit=   6648             
+   totalfgcount=   20205 (   20205) norm(grad f(x^*))=6.99e-07 sol_info=none
+   norm(x-firstx) = 1.438139e-04
+   time is now 29-Jan-2023 16:14:38
+----------
+begin at 29-Jan-2023 16:14:39
+code = do_one_problem_all_algs  whichtest = u(tau=1.000000e+03) n = 1000 gtol = 1.000000e-06
+
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=   4289 num_ag=768  
+   totalfgcount=    9258 (    9258) norm(grad f(x^*))=2.99e-07 sol_info=none
+   time is now 29-Jan-2023 16:14:40
+C+AG(HaveL=false,u=true,s=0.800000,c=8,BP=D), L=NaN, ell=NaN, success=true  numit=   9082 num_ag=3232 
+   totalfgcount=   41302 (   41302) norm(grad f(x^*))=9.76e-07 sol_info=none
+   norm(x-firstx) = 9.384052e-05
+   time is now 29-Jan-2023 16:14:41
+C+AG(HaveL=true,u=false,s=0.800000,c=8,BP=D), L=8.000000e+00, ell=0.000000e+00, success=true  numit=   5478 num_ag=0    
+   totalfgcount=   10954 (   10954) norm(grad f(x^*))=9.84e-07 sol_info=none
+   norm(x-firstx) = 1.048605e-03
+   time is now 29-Jan-2023 16:14:42
+C+AG(HaveL=true,u=true,s=0.800000,c=8,BP=D), L=8.000000e+00, ell=0.000000e+00, success=true  numit=   5478 num_ag=0    
+   totalfgcount=   10954 (   10954) norm(grad f(x^*))=9.84e-07 sol_info=none
+   norm(x-firstx) = 1.048605e-03
+   time is now 29-Jan-2023 16:14:42
+C+AG(HaveL=false,u=false,s=0.800000,c=8,BP=+), L=NaN, ell=NaN, success=true  numit=   4341 num_ag=1544 
+   totalfgcount=   10123 (   10123) norm(grad f(x^*))=4.88e-07 sol_info=none
+   norm(x-firstx) = 1.064642e-06
+   time is now 29-Jan-2023 16:14:43
+AG(HaveL=true)                , L=8.000000e+00, ell=0.000000e+00, success=false numit=    Inf             
+   totalfgcount=  100001 (  100001) norm(grad f(x^*))=1.80e-01 sol_info=none
+   norm(x-firstx) = 9.060116e+03
+   time is now 29-Jan-2023 16:14:47
+AG(HaveL=false)               , L=NaN, ell=NaN, success=false numit=    Inf             
+   totalfgcount=  100002 (  100002) norm(grad f(x^*))=5.72e-01 sol_info=none
+   norm(x-firstx) = 2.666254e+04
+   time is now 29-Jan-2023 16:14:51
+CGDescent                     , L=NaN, ell=NaN, success=true  numit=   2770             
+   totalfgcount=    8365 (    8365) norm(grad f(x^*))=1.03e-06 sol_info=none
+   norm(x-firstx) = 4.864567e-03
+   time is now 29-Jan-2023 16:14:51

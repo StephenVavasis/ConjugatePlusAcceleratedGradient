@@ -2,11 +2,20 @@ function handles = make_huber_regression(A,b,tau)
 
 fcount = 0;
 gcount = 0;
-fgcount = 0;
+bothfgcount = 0;
 [m,n] = size(A);
 ell = 0;
 At = A';
 L = 2*norm(At*A,1);
+
+    function info = getinfo(x)
+        res = A*x - b;
+        ln = length(find(res < -tau));
+        lp = length(find(res > tau));
+        lz = size(A,1) - ln - lp;
+        info = [ln, lz, lp];
+    end
+        
 
     function f = localf(x)
         res = A*x - b;
@@ -29,7 +38,7 @@ L = 2*norm(At*A,1);
         fderiv(mask2) = 2 * tau;
         fderiv(mask3) = 2 * res(mask3);
         g = At * fderiv;
-        fgcount = fgcount + 1;
+        bothfgcount = bothfgcount + 1;
     end
     function g = localg(x)
         [~,g] = localfg(x);
@@ -40,11 +49,14 @@ L = 2*norm(At*A,1);
     function reset_counts()
         fcount = 0;
         gcount = 0;
-        fgcount = 0;
+        bothfgcount = 0;
     end
     function s = getcounts()
         s = struct('fcount', fcount, 'gcount', gcount, ...
-            'fgcount', fgcount);
+            'bothfgcount', bothfgcount);
+    end
+    function s = fgcount()
+        s = fcount + gcount + bothfgcount;
     end
 goodstart = @()(zeros(n,1));
 handles =  struct('fg', @localfg, ...
@@ -55,8 +67,8 @@ handles =  struct('fg', @localfg, ...
     'n', n, ...
     'goodstart', goodstart, ...
     'getcounts', @getcounts, ...
+    'fgcount', @fgcount, ...
+    'leninfo', 3, ...
+    'getinfo', @getinfo, ...
     'resetcounts', @reset_counts);
 end
-
-
-   

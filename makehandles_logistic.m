@@ -6,7 +6,7 @@ n = size(A, 2);
 
 fcount = 0;
 gcount = 0;
-fgcount = 0;
+bothfgcount = 0;
     function f = fval(x, A, lambda)
         z = A * x;
         f = sum(log(1 + exp(-z))) + norm(x)^2 * lambda / 2;
@@ -18,7 +18,7 @@ fgcount = 0;
         ee = exp(-z);
         f = sum(log(1 + ee)) + norm(x)^2 * lambda / 2;
         g = -A' * (ee ./ (1 + ee)) + lambda * x; 
-        fgcount = fgcount + 1;
+        bothfgcount = bothfgcount + 1;
     end
 
     function g = gval(x, A, lambda)
@@ -30,19 +30,22 @@ fgcount = 0;
     function reset_counts()
         fcount = 0;
         gcount = 0;
-        fgcount = 0;
+        bothfgcount = 0;
     end
 
     function s = getcounts()
         s = struct('fcount', fcount, 'gcount', gcount, ...
-            'fgcount', fgcount);
+            'bothfgcount', bothfgcount);
+    end
+
+
+    function s = fgcount()
+        s = fcount + gcount + bothfgcount;
     end
 
 localf = @(x)fval(x, A, lambda);
 localg = @(x)gval(x, A, lambda);
 localfg = @(x)fg(x, A, lambda);
-resetcounts1 = @reset_counts;
-getcounts1 = @getcounts;
 goodstart = @()(zeros(n,1));
 handles =  struct('fg', localfg, ...
     'f', localf, ...   
@@ -51,6 +54,7 @@ handles =  struct('fg', localfg, ...
     'ell', ell, ...
     'n', n, ...
     'goodstart', goodstart, ...
-    'getcounts', getcounts1, ...
-    'resetcounts', resetcounts1);
+    'getcounts', @getcounts, ...
+    'fgcount', @fgcount, ...
+    'resetcounts', @reset_counts);
 end

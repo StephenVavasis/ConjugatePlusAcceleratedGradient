@@ -1,17 +1,20 @@
 function handles = makeorthol1test(dctrows, n, b, lambda, delta)
 fcount = 0;
-fgcount = 0;
+bothfgcount = 0;
 gcount = 0;
     function resetcounts()
         fcount = 0;
-        fgcount = 0;
+        bothfgcount = 0;
         gcount = 0;
     end
 
 
     function s = getcounts()
         s = struct('fcount', fcount, 'gcount', gcount, ...
-            'fgcount', fgcount);
+            'bothfgcount', bothfgcount);
+    end
+    function s = fgcount()
+        s = fcount + gcount + bothfgcount;
     end
 
         
@@ -39,7 +42,7 @@ gcount = 0;
         sqrty2 = sqrt(y.^2 + delta);
         fval = norm(Ayb)^2 / 2 + lambda * sum(sqrty2);
         grad = At(Ayb) + lambda * (y ./ sqrty2);
-        fgcount = fgcount + 1;
+        bothfgcount = bothfgcount + 1;
     end
 
     function grad = localg(y)
@@ -76,6 +79,7 @@ handles = struct('fg', @localfg, ...
     'n', n, ...
     'goodstart', @goodstart, ...
     'resetcounts', @resetcounts, ...
+    'fgcount', @fgcount, ...
     'getcounts', @getcounts);
 
 end
